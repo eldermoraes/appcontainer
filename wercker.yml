@@ -1,13 +1,14 @@
 #Use tomee:8-jre-7.0.3-plume base docker image from dockerhub and open the application port on the docker container
 box:
-  maven:3.5.2-jdk-8
   id: tomee:8-jre-7.0.3-plume
   ports:
     - $PORT
 
 #Build our application using Maven, just as we always have
 build:
-  steps:
+    steps:
+      - wercker/maven:
+        version: 3.5.2  
     - install-packages:
         packages: maven
     - script:
