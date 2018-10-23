@@ -6,9 +6,8 @@ box:
 
 #Build our application using Maven, just as we always have
 build:
+    box: maven:3.5.2-openjdk-8
     steps:
-      - wercker/maven:
-        version: 3.5.2  
     - install-packages:
         packages: maven
     - script:
