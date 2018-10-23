@@ -1,0 +1,5 @@
+br/com/eldermoraes/apptest/beans/TestData.class
+br/com/eldermoraes/apptest/TestController.class
+br/com/eldermoraes/apptest/entities/Access.class
+br/com/eldermoraes/apptest/business/AccessBean.class
+br/com/eldermoraes/apptest/AppConfigTest.class
