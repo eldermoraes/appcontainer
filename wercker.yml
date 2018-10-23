@@ -6,7 +6,7 @@ box:
 
 #Build our application using Maven, just as we always have
 build:
-    box: maven:3.5.2-openjdk-8
+    box: maven:3.5.4-jdk-8
     steps:
     - install-packages:
         packages: maven
