@@ -15,3 +15,7 @@ RUN chown -R tomee:tomee /usr/local/tomee/webapps/app.war \
     && chmod -R 777 /usr/local/tomee/webapps/app.war
 
 USER tomee
+
+EXPOSE 8080
+
+CMD ["catalina.sh", "run"]
